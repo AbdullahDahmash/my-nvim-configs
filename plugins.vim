@@ -52,6 +52,9 @@ Plug 'amix/vim-zenroom'
 Plug 'yegappan/mru'
 Plug 'vim-scripts/peaksea'
 Plug 'wesgibbs/vim-irblack'
+Plug 'dsawardekar/ember.vim'
+Plug 'tpope/vim-rails'
+Plug 'mustache/vim-mustache-handlebars'
 
 
 " Themes

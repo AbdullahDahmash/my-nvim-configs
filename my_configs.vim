@@ -87,3 +87,6 @@ set clipboard+=unnamedplus
 " Enable deoplete
 let g:deoplete#enable_at_startup = 1
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+
+" *.hbs for mustache
+au BufReadPost *.hbs set syntax=mustache
