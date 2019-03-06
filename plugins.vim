@@ -55,6 +55,7 @@ Plug 'wesgibbs/vim-irblack'
 Plug 'dsawardekar/ember.vim'
 Plug 'tpope/vim-rails'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'Glench/Vim-Jinja2-Syntax'
 
 
 " Themes

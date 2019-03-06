@@ -3,36 +3,11 @@ set mouse-=a
 " customize ultimate vim
 set nocompatible laststatus=2 number ruler expandtab shiftwidth=4 softtabstop=4 relativenumber
 
-" Syntastic style
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_loc_list_height = 5
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
-
-let g:syntastic_error_symbol = '❌'
-let g:syntastic_style_error_symbol = '⁉️'
-let g:syntastic_warning_symbol = '⚠️'
-let g:syntastic_style_warning_symbol = '⚡'
-
-highlight link SyntasticErrorSign SignColumn
-highlight link SyntasticWarningSign SignColumn
-highlight link SyntasticStyleErrorSign SignColumn
-highlight link SyntasticStyleWarningSign SignColumn
-
-" Syntastic checkers
-let g:syntastic_python_checkers = ['pep8']
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_typescript_checkers = ['tslint']
+" ALE style
 
 " Theme 
 syntax enable
-set background=light
+set background=dark
 let g:solarized_termcolors=256  
 colorscheme solarized
 
