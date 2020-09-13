@@ -33,6 +33,10 @@ set ts=4
 :autocmd Filetype ruby set sw=2
 :autocmd Filetype ruby set ts=2
 
+:autocmd Filetype yaml set softtabstop=2
+:autocmd Filetype yaml set sw=2
+:autocmd Filetype yaml set ts=2
+
 :autocmd Filetype javascript set softtabstop=2
 :autocmd Filetype javascript set sw=2
 :autocmd Filetype javascript set ts=2
