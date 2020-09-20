@@ -148,3 +148,9 @@ let g:ale_fix_on_save = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+""""""""""""""""""""""""""""""
+" => vim latex live preview
+""""""""""""""""""""""""""""""
+
+let g:livepreview_previewer = '/mnt/c/Users/pc/AppData/Local/Apps/Evince-2.32.0.145/bin/evince.exe'
