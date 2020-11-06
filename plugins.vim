@@ -3,8 +3,7 @@
 
 call plug#begin()
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex'  }
 Plug 'lervag/vimtex'
 Plug 'mileszs/ack.vim'
