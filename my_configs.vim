@@ -45,6 +45,10 @@ set ts=4
 :autocmd Filetype scala set sw=2
 :autocmd Filetype scala set ts=2
 
+:autocmd Filetype pug set softtabstop=2
+:autocmd Filetype pug set sw=2
+:autocmd Filetype pug set ts=2
+
 " GitGutter
 let g:gitgutter_enabled = 1
 let g:gitgutter_realtime = 1
