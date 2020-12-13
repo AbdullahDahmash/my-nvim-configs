@@ -49,6 +49,18 @@ set ts=4
 :autocmd Filetype pug set sw=2
 :autocmd Filetype pug set ts=2
 
+:autocmd Filetype slim set softtabstop=2
+:autocmd Filetype slim set sw=2
+:autocmd Filetype slim set ts=2
+
+:autocmd Filetype slime set softtabstop=2
+:autocmd Filetype slime set sw=2
+:autocmd Filetype slime set ts=2
+
+:autocmd Filetype slimeex set softtabstop=2
+:autocmd Filetype slimeex set sw=2
+:autocmd Filetype slimeex set ts=2
+
 " GitGutter
 let g:gitgutter_enabled = 1
 let g:gitgutter_realtime = 1
@@ -63,6 +75,11 @@ noremap <F5> :Autoformat<CR>
 
 " Add jbuilder syntax highlighting
 au BufNewFile,BufRead *.json.jbuilder set ft=ruby
+
+" Add slime
+autocmd BufNewFile,BufRead *.slim setlocal filetype=slim
+autocmd BufNewFile,BufRead *.slime setlocal filetype=slim
+autocmd BufNewFile,BufRead *.slimeex setlocal filetype=slim
 
 " Plus sign to use clipboard
 set clipboard+=unnamedplus
